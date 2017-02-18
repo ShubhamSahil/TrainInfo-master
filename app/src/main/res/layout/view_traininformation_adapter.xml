@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:padding="5dp"
+    android:weightSum="5"
+    android:background="#FFFFFF"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+                <TextView
+                    android:id="@+id/txt_station_name"
+                    android:layout_width="0dp"
+                    android:textSize="14dp"
+                    android:textColor="#010101"
+                    android:textStyle="bold"
+                    android:layout_weight="1.2"
+                    android:text="Station"
+                    android:layout_height="wrap_content"
+                    />
+
+    <TextView
+        android:id="@+id/txt_arrival_name"
+        android:layout_width="0dp"
+        android:textSize="14dp"
+        android:layout_weight=".9"
+        android:text="Arrival Time"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/txt_depature_time"
+        android:layout_width="0dp"
+        android:textSize="14dp"
+        android:layout_weight=".9"
+        android:text="Departure Time"
+        android:layout_height="wrap_content"
+        />
+    <TextView
+        android:id="@+id/txt_act_time"
+        android:layout_width="0dp"
+        android:textSize="14dp"
+        android:layout_weight="1"
+        android:text="Departure/Arrival Time"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView
+        android:id="@+id/platform"
+        android:layout_width="0dp"
+        android:textSize="14dp"
+        android:padding="5dp"
+        android:visibility="gone"
+        android:layout_weight="1"
+        android:text="-"
+        android:layout_height="wrap_content"
+        />
+
+    <TextView       android:id="@+id/txt_status"
+                    android:layout_width="0dp"
+                    android:textSize="14dp"
+                    android:layout_weight="1"
+                    android:text="Status"
+                    android:layout_height="wrap_content"
+                    />
+    <TextView
+        android:id="@+id/txt_day"
+        android:layout_width="0dp"
+        android:textSize="14dp"
+        android:layout_weight="1"
+        android:text="Departure Time"
+        android:layout_height="wrap_content"
+        />
+
+            </LinearLayout>
